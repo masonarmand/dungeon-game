@@ -1,3 +1,11 @@
+/* file: player.c
+ * --------------
+ * Player struct related functions, including player movement.
+ *
+ * Author: Mason Armand
+ * Date Created: June 19th, 2023
+ * Last Modified: August 8th, 2023
+ */
 #include "dungeon.h"
 
 Player Player_init(void)

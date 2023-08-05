@@ -1,6 +1,14 @@
+/* file: util.c
+ * ------------
+ * Misc utility functions. Some of these functions used to be included in raylib
+ * but no longer are.
+ *
+ * Author: Mason Armand
+ * Date Created: June 19th, 2023
+ * Last Modified: August 8th, 2023
+ */
 #include "dungeon.h"
 #include "rlgl.h"
-
 
 Color LerpColor(Color near, Color far, float t)
 {

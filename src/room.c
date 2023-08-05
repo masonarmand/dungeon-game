@@ -1,3 +1,11 @@
+/* file: room.c
+ * ------------
+ * Functions for room generation and intialization.
+ *
+ * Author: Mason Armand
+ * Date Created: June 19th, 2023
+ * Last Modified: August 8th, 2023
+ */
 #include "dungeon.h"
 
 Room Room_init(Vector2 pos, int height, int width)
